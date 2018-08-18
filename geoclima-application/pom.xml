@@ -13,6 +13,12 @@
     <artifactId>geoclima-application</artifactId>
 
     <dependencies>
+        <!-- INTERNAL -->
+        <dependency>
+            <groupId>br.com.uol.test</groupId>
+            <artifactId>geoclima-ip-vigilante-client</artifactId>
+        </dependency>
+
         <!-- EXTERNAL -->
         <!-- SPRING BOOT -->
         <dependency>

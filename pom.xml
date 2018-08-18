@@ -17,6 +17,7 @@
 
     <modules>
         <module>geoclima-application</module>
+        <module>geoclima-ip-vigilante-client</module>
     </modules>
 
     <properties>
@@ -45,7 +46,11 @@
     <dependencyManagement>
         <dependencies>
             <!-- INTERNAL -->
-
+            <dependency>
+                <groupId>br.com.uol.test</groupId>
+                <artifactId>geoclima-ip-vigilante-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
             <!-- EXTERNAL -->
 
