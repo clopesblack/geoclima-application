@@ -34,6 +34,12 @@
 
         <!-- MAVEN COMPILER PLUGIN VERSION -->
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+
+        <!-- MODELMAPPER VERSION -->
+        <modelmapper.version>2.2.0</modelmapper.version>
+
+        <!-- SPRINGFOX-SWAGGER2 VERSION -->
+        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
     </properties>
 
     <dependencyManagement>
@@ -74,6 +80,27 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- MODELMAPPER -->
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>${modelmapper.version}</version>
+        </dependency>
+
+        <!-- SPRINGFOX-SWAGGER2 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox-swagger2.version}</version>
+        </dependency>
+
+        <!-- SPRINGFOX-SWAGGER-UI -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox-swagger2.version}</version>
         </dependency>
     </dependencies>
 
