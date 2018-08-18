@@ -18,6 +18,10 @@
             <groupId>br.com.uol.test</groupId>
             <artifactId>geoclima-ip-vigilante-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>br.com.uol.test</groupId>
+            <artifactId>geoclima-meta-weather-client</artifactId>
+        </dependency>
 
         <!-- EXTERNAL -->
         <!-- SPRING BOOT -->
