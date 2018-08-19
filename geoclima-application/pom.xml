@@ -22,12 +22,25 @@
             <groupId>br.com.uol.test</groupId>
             <artifactId>geoclima-meta-weather-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>br.com.uol.test</groupId>
+            <artifactId>geoclima-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>br.com.uol.test</groupId>
+            <artifactId>geoclima-persistence</artifactId>
+        </dependency>
 
         <!-- EXTERNAL -->
         <!-- SPRING BOOT -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>de.flapdoodle.embed</groupId>
+            <artifactId>de.flapdoodle.embed.mongo</artifactId>
         </dependency>
     </dependencies>
 

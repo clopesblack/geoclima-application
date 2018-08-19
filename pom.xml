@@ -19,6 +19,8 @@
         <module>geoclima-application</module>
         <module>geoclima-ip-vigilante-client</module>
         <module>geoclima-meta-weather-client</module>
+        <module>geoclima-persistence</module>
+        <module>geoclima-service</module>
     </modules>
 
     <properties>
@@ -42,6 +44,9 @@
 
         <!-- SPRINGFOX-SWAGGER2 VERSION -->
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+
+        <!-- EMBEDED MONGO -->
+        <de.flapdoodle.embed.mongo.version>2.1.1</de.flapdoodle.embed.mongo.version>
     </properties>
 
     <dependencyManagement>
@@ -55,6 +60,16 @@
             <dependency>
                 <groupId>br.com.uol.test</groupId>
                 <artifactId>geoclima-meta-weather-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.uol.test</groupId>
+                <artifactId>geoclima-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.uol.test</groupId>
+                <artifactId>geoclima-persistence</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -75,6 +90,13 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+
+            <!-- EMBEDED MONGO -->
+            <dependency>
+                <groupId>de.flapdoodle.embed</groupId>
+                <artifactId>de.flapdoodle.embed.mongo</artifactId>
+                <version>${de.flapdoodle.embed.mongo.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
