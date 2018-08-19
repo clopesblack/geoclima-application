@@ -30,6 +30,10 @@
             <groupId>br.com.uol.test</groupId>
             <artifactId>geoclima-persistence</artifactId>
         </dependency>
+        <dependency>
+            <groupId>br.com.uol.test</groupId>
+            <artifactId>geoclima-api</artifactId>
+        </dependency>
 
         <!-- EXTERNAL -->
         <!-- SPRING BOOT -->

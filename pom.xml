@@ -21,6 +21,7 @@
         <module>geoclima-meta-weather-client</module>
         <module>geoclima-persistence</module>
         <module>geoclima-service</module>
+        <module>geoclima-api</module>
     </modules>
 
     <properties>
@@ -70,6 +71,11 @@
             <dependency>
                 <groupId>br.com.uol.test</groupId>
                 <artifactId>geoclima-persistence</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.uol.test</groupId>
+                <artifactId>geoclima-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
