@@ -19,7 +19,6 @@ import static org.springframework.web.util.UriComponentsBuilder.fromUriString;
 public class IpVigilanteClientImpl implements IpVigilanteClient {
 
     private static final String GET_INFO_URL = "https://ipvigilante.com/{ip}";
-
     private final RestTemplate restTemplate;
 
     @Override
