@@ -3,32 +3,32 @@
 Projeto para gerenciar clientes e os climas associados a eles.
 
 ## O que foi utilizado nesse projeto:
-* Maven e Modulos
+* Maven
 * Spring Cloud & Spring Boot
 * Rest Services
 * Lombok
 * Embedded Mongo
 * ModelMapper
-* Swagger e Swagger UI
-
+* Swagger
 
 ## Porque essas ferramentas foram escolhidas
 
 * O projeto inicialmente foi feito com Gradle, porém, tive alguns problemas com o Gradle e o Lombok, então decidi mudar para o Maven.
 * Spring Boot, pois é mais utilizado no mercado e foi solicitado no teste.
-* Lombok e ModelMapper, pois deixaria o código mais simples e mais limpo.
-* Embedded Mongo foi utilizado pois o projeto é apenas para um teste e queria algo simples e rápido, principalmente ao testar a aplicação.
-* Swagger UI, facilitou a documentação e a utilização da api de clientes nos testes.
+* Lombok e ModelMapper, pois deixaria o código mais simples e mais limpo, além de diminuir o tempo de desenvolvimento.
+* MongoDB foi utilizado pela simplicidade do projeto e pela velocidade de consulta do cliente pelo id.
+* Embedded Mongo, foi utilizado fora do escopo de teste, para facilitar os avaliadores de modo que não precisem configurar o ambiente, instalando um banco para avaliar o projeto.
+* Swagger foi utilizado como documentação da api e também por ser uma boa opção que possibilita os avaliadores consumirem a api.
 
-## Swagger UI - Utilização
+## Swagger - Utilização
 
-* Com a aplicação iniciada, colocar no browser : http://localhost:8080/swagger-ui.html
-* Nesse link temos a api de clientes e os models existentes.
-* Na api, temos todos os métodos e o request e response de exemplo, podendo executar chamadas na aplicação.
+* Com a aplicação iniciada, acessar o link: http://localhost:8080/swagger-ui.html
 
-## Building
+## Executando o projeto
+
+ Para rodar o projeto basta executar o comando do plugin do Spring Boot
 
 ```bash
-$ sudo mvn clean install
-```
+$ ./mvnw spring-boot:run
+
 ```
