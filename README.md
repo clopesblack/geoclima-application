@@ -1,8 +1,8 @@
 # Geoclima
 
-Projeto para gerenciar clientes e os climas associados a eles.
+Project to manage customers and their associated climates.
 
-## O que foi utilizado nesse projeto:
+## What was used in this project:
 * Maven
 * Spring Cloud & Spring Boot
 * Rest Services
@@ -11,22 +11,22 @@ Projeto para gerenciar clientes e os climas associados a eles.
 * ModelMapper
 * Swagger
 
-## Porque essas ferramentas foram escolhidas
+## Why this tools was choosen
 
-* O projeto inicialmente foi feito com Gradle, porém, tive alguns problemas com o Gradle e o Lombok, então decidi mudar para o Maven.
-* Spring Boot, pois é mais utilizado no mercado e foi solicitado no teste.
-* Lombok e ModelMapper, pois deixaria o código mais simples e mais limpo, além de diminuir o tempo de desenvolvimento.
-* MongoDB foi utilizado pela simplicidade do projeto e pela velocidade de consulta do cliente pelo id.
-* Embedded Mongo, foi utilizado fora do escopo de teste, para facilitar os avaliadores de modo que não precisem configurar o ambiente, instalando um banco para avaliar o projeto.
-* Swagger foi utilizado como documentação da api e também por ser uma boa opção que possibilita os avaliadores consumirem a api.
+* Initially, the project was made with Gradle, but I had some problems with Lombok and Gradle. Then, I decided to change to Maven.
+* Spring Boot, because it is the most framework used and was solicited for the test.
+* Lombok and ModelMapper, because would let the code to be more clean and fast, besides to reduce some developing time.
+* MongoDB was chosen because of the simplicity of the project and for the velocity to consult a client by his id.
+* Embedded Mongo, it was used outside of the test scope to facilitate the reviewers, since that way they don't need to configure the environment.
+* Swagger, it was used for the documentation to the API's and to be a good option for the reviewers to consume the API's easily.
 
-## Swagger - Utilização
+## Swagger - How to use
 
-* Com a aplicação iniciada, acessar o link: http://localhost:8080/swagger-ui.html
+* With the application started, use this link: http://localhost:8080/swagger-ui.html
 
 ## Executando o projeto
 
- Para rodar o projeto basta executar o comando do plugin do Spring Boot
+To run the project just run the Spring Boot plugin command
 
 ```bash
 $ ./mvnw spring-boot:run
