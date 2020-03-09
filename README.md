@@ -24,7 +24,7 @@ Project to manage customers and their associated climates.
 
 * With the application started, use this link: http://localhost:8080/swagger-ui.html
 
-## Executando o projeto
+## Run the project
 
 To run the project just run the Spring Boot plugin command
 
